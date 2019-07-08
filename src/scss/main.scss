@@ -32,6 +32,13 @@ header a {
     display: block;
 }
 
+.about {
+    &__photo {
+        width: 20%;
+        height: 20%;
+    }
+}
+
 .menu {
     &__list {
         background-color: $gradient-color1;
