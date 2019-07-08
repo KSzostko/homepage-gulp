@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <h1>Hello world!</h1>
-  
-  <script src="js/main.js"></script>
+
+    <div class="wrapper">
+
+        <nav class="menu">
+            <ul class="menu__list menu__list--js menu__list--visible">
+                <li class="menu__item"><a class="menu__link" href="index.html">Strona główna</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Podstrona</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 1</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 2</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 3</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 4</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 5</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 6</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">dzień 7</a></li>
+            </ul>
+            <button class="menu__button menu__button--js">≡</button>
+        </nav>
+
+        <main>
+            <header class="about">
+                <h1 class="about__title">
+                    Kuba Szóstko - strona domowa
+                </h1>
+                <p class="about__description--js"></p>
+            </header>
+
+            <section class="diary">
+                <h2 class="diary__title">Kim jestem?</h2>
+                <p>Lorem, <b>ipsum</b> dolor sit amet consectetur adipisicing elit. Tenetur sunt veniam voluptates <strong>dignissimos ipsam</strong> laborum placeat doloribus facere eum rem.<br>
+                <a href="#diary__link">Przejdź do pamiętnika</a>
+                </p>
+            </section>
+
+            <section class="posts">
+                <h2 class="posts__title">Pamiętniczek</h2>
+                <section class="posts__section">
+                    <h3 class="section__title">Jak stworzyć prawidłowego HTML-a?</h3>
+                    <p class="section__content">Lorem ipsum dolor sit amet <i>consectetur</i> adipisicing elit. Incidunt vero esse deserunt at? Temporibus, laboriosam <em>consequatur</em>. Quidem reprehenderit excepturi quaerat?<br>
+                    <a class="section__link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a</a>
+                    </p>
+                </section>
+                <section class="posts__section">
+                    <h3 class="section__title">Jak stworzyć prawidłowego HTML-a?</h3>
+                    <p class="section__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, repellendus error recusandae cumque vel eos qui perferendis delectus earum et?</p>
+                </section>
+                <section class="posts__section">
+                    <h3 class="section__title">Jak stworzyć prawidłowego HTML-a?</h3>
+                    <p class="section__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, repellendus error recusandae cumque vel eos qui perferendis delectus earum et?</p>
+                </section>
+                <section class="posts__section">
+                    <h3 class="section__title">Jak stworzyć prawidłowego HTML-a?</h3>
+                    <p class="section__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, repellendus error recusandae cumque vel eos qui perferendis delectus earum et?</p>
+                </section>
+                <section class="posts__section">
+                    <h3 class="section__title">Jak stworzyć prawidłowego
+                        HTML-a?</h3>
+                    <p class="section__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, repellendus error recusandae cumque vel eos qui perferendis delectus earum et?</p>
+                </section>
+            </section>
+
+        </main>
+
+        <footer class="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est vitae eligendi.
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
