@@ -27,3 +27,37 @@ const listButton = document.querySelector('.menu__button--js');
 listButton.addEventListener('click', () => {
     menuList.classList.toggle('menu__list--visible');
 })
+
+// cookies
+// console.log(document.cookie);
+// document.cookie = "testoweCiastko = wartość";
+// document.cookie = "testoweCiastko2 = wartość2";
+// console.log(document.cookie);
+
+// local/session storage adding items
+// localStorage.setItem('name', 'kuba');
+// const person = {
+//     name: 'kuba',
+//     age: 20
+// }
+
+// console.log(JSON.stringify(person));
+// const jsonPerson = JSON.stringify(person);
+
+// localStorage.setItem('person', jsonPerson);
+
+// getting items
+// const personStringify = localStorage.getItem('person');
+// const newPerson = JSON.parse(personStringify);
+
+// console.log(newPerson);
+
+const focusInput = document.querySelector('.focus--js');
+
+if (localStorage.getItem('focusInput')) {
+    focusInput.value = localStorage.getItem('focusInput');
+}
+
+focusInput.addEventListener('keyup', (e) => {
+    localStorage.setItem('focusInput', e.target.value);
+});
