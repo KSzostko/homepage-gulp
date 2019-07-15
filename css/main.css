@@ -333,6 +333,10 @@ p {
 header a {
   display: block; }
 
+.about__photo {
+  width: 20%;
+  height: 20%; }
+
 .menu__list {
   background-color: #52ACFF;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #52ACFF), to(#FFE32C));
